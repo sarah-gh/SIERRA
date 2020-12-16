@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-collapse {
+    flex-grow: initial;
+}
+
+header {
+    background-image: url(../Assets/home-slider/slider-bg-1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .bg-light {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.navbar {
+    .navbar-brand {
+        width: 100px;
+        height: auto;
+        padding-left: 40px;
+    }
+    li {
+        font-size: 15px;
+    }
+}
+
+.header_content {
+    margin: 30px auto;
+    height: 600px;
+    .header_caption {
+        height: 600px;
+        background-image: url(../Assets/home-slider/slider-m-1.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 330px;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        h1 {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 55px;
+            margin: 0;
+            padding: 0px 0;
+            font-weight: bold;
+        }
+        p {
+            color: rgb(183, 175, 192);
+            margin: 0;
+            padding: 15px 0 30px 0px;
+            font-weight: bold;
+        }
+        button {
+            width: fit-content;
+            margin-top: 20px;
+            padding: 10px 30px;
+            border: 4px solid #a7cbff;
+            border-radius: 25px;
+            font-size: 13px;
+            color: white;
+            cursor: pointer;
+            text-align: center;
+            background: rgb(112, 187, 254);
+            background: -moz-linear-gradient(90deg, rgba(112, 187, 254, 1) 0%, rgba(139, 157, 255, 1) 77%, rgba(151, 142, 255, 1) 100%);
+            background: -webkit-linear-gradient(90deg, rgba(112, 187, 254, 1) 0%, rgba(139, 157, 255, 1) 77%, rgba(151, 142, 255, 1) 100%);
+            background: linear-gradient(90deg, rgba(112, 187, 254, 1) 0%, rgba(139, 157, 255, 1) 77%, rgba(151, 142, 255, 1) 100%);
+            filter: gradient(startColorstr="#70bbfe", endColorstr="#978eff", GradientType=1);
+        }
+    }
+}
